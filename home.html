@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">TECHNIQUE POLYTECHNIC INSTITUTE(CANTEEN)</a>
+
+      <nav class="navbar">
+         <a href="home.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="menu.html">Menu</a>
+         <a href="orders.html">Orders</a>
+         <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">JIT SARKAR</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">Profile</a>
+            <a href="#" class="delete-btn">logout</a>
+         </div>
+         <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<section class="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="content">
+               <span>Order online</span>
+               <h3>TPI CANTEEN</h3>
+               <a href="menu.html" class="btn">see menus</a>
+            </div>
+            <div class="image">
+               <img src="https://images.freeimages.com/clg/istock/previews/1029/102907663-fish-restaurant-chef-menu-card-template.jpg" alt="">
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="content">
+               <span>order online</span>
+               <h3>double hamburger</h3>
+               <a href="menu.html" class="btn">see menus</a>
+            </div>
+            <div class="image">
+               <img src="images/home-img-2.png" alt="">
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="content">
+               <span>order online</span>
+               <h3>roasted chicken</h3>
+               <a href="menu.html" class="btn">see menus</a>
+            </div>
+            <div class="image">
+               <img src="images/home-img-3.png" alt="">
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+</section>
+</section>
+<section class="category">
+
+   <h1 class="title">Food Category</h1>
+
+   <div class="box-container">
+
+      <a href="category.html" class="box">
+         <img src="images/cat-1.png" alt="">
+         <h3>BreakFast</h3>
+      </a>
+   
+      <a href="category.html" class="box">
+         <img src="images/cat-2.png" alt="">
+         <h3>Lunch</h3>
+      </a>
+   
+      <a href="category.html" class="box">
+         <img src="images/cat-3.png" alt="">
+         <h3>Dinner</h3>
+      </a>
+   
+
+   </div>
+   </section>
+   
+<section class="products">
+
+   <h1 class="title">Our Drink's</h1>
+
+   <div class="box-container">
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://pngimages.in/uploads/png-webp/2023/March-2023/milk_Png_Images_For_Editing.webp" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Milk</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>10<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://e7.pngegg.com/pngimages/242/837/png-clipart-fruit-juice-juice-smoothie-organic-food-vegetable-juicing-fruit-juice-natural-foods-leaf-vegetable.png" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Food Juice</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>15<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://e7.pngegg.com/pngimages/114/609/png-clipart-cafe-tea-coffee-cappuccino-drink-tea-cafe-tea.png" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Tea & Coffee</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>10<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjbkQeiKG5-6HUvbFf6IdFI8f5VmqC7i4pQ&usqp=CAU" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Honey Chocolate Ice Cream</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>45<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://e7.pngegg.com/pngimages/642/593/png-clipart-ice-cream-on-cup-ice-cream-cone-chocolate-ice-cream-strawberry-ice-cream-ice-cream-glass-cream-thumbnail.png" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Chocolate Ice Cream</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>25<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://img.favpng.com/2/10/4/coca-cola-soft-drink-carbonated-drink-png-favpng-j57q0tZ9bHcydsKp9dAhprKav.jpg" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Spride & Cock</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>40<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="menu.html" class="btn">veiw all</a>
+   </div>
+</div>
+</section>
+</section>
+
+<section class="products">
+
+   <h1 class="title">Today's BreakFast</h1>
+
+   <div class="box-container">
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://i0.wp.com/foodtrails25.com/wp-content/uploads/2019/04/img_7076_ezy-watermark_29-04-2019_08-09-27pm.jpg?fit=1600%2C1067&ssl=1" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Luchi & Alurdam</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>20<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://www.treebo.com/blog/wp-content/uploads/2017/05/Luchi-Aloo-Dum.jpg" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Kachori & Ghugni</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>25<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://static.vecteezy.com/system/resources/previews/024/108/040/original/tasty-chicken-cheese-salad-sandwich-on-transparent-background-png.png" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Salad Sandwich</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>16<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://w7.pngwing.com/pngs/686/828/png-transparent-chicken-salad-chicken-sandwich-chick-fil-a-sandwiches-food-animals-recipe.png" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Grinder Salad Sandwich</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>20<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://e7.pngegg.com/pngimages/546/968/png-clipart-egg-sandwich-egg-sandwich-food-egg-preparations-thumbnail.png" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Egg Sandwich</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>22<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://www.shutterstock.com/image-photo/two-halves-club-sandwich-on-600nw-1681941622.jpg" alt="">
+         <a href="category.html" class="cat">BreakFast</a>
+         <div class="name">Chicken Sandwich</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>35<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="menu.html" class="btn">veiw all</a>
+   </div>
+
+</section>
+
+
+<section class="products">
+
+   <h1 class="title">Today's Lunch</h1>
+
+   <div class="box-container">
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnJSzunl1pHHO8xq7EId0fINg8MInbEi5cIg&usqp=CAU" alt="">
+         <a href="category.html" class="cat">Lunch</a>
+         <div class="name">Rice</div>
+         <div class="flex">
+            <div class="price"><span>₹10</span>3<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://www.vhv.rs/dpng/d/25-257944_cooked-dal-png-transparent-png.png" alt="">
+         <a href="category.html" class="cat">Lunch</a>
+         <div class="name">Dal</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>5<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2023/08/Sukto_2.jpg" alt="">
+         <a href="category.html" class="cat">Lunch</a>
+         <div class="name">Sukto</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>15<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://bengalibitescouk.files.wordpress.com/2023/03/dallc2b7e-2023-02-20-17.17.09-indian-cauliflower-and-peas-curry-in-a-tomato-gravy.png" alt="">
+         <a href="category.html" class="cat">Lunch</a>
+         <div class="name">Fulkopi</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>12<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://www.priyom.in/wp-content/uploads/2022/05/recipe-3.png" alt="">
+         <a href="category.html" class="cat">Lunch</a>
+         <div class="name">Fish Curry</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>25<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://i.ytimg.com/vi/-dh_uGahzYo/maxresdefault.jpg" alt="">
+         <a href="category.html" class="cat">Lunch</a>
+         <div class="name">Mutton Curry</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>30<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="menu.html" class="btn">veiw all</a>
+   </div>
+
+</section>
+
+<section class="products">
+
+   <h1 class="title">Today's Dinner</h1>
+
+   <div class="box-container">
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://static.vecteezy.com/system/resources/previews/026/774/625/non_2x/thai-roti-with-ai-generated-free-png.png" alt="">
+         <a href="category.html" class="cat">Dinner</a>
+         <div class="name">Ruti</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>5<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://www.shutterstock.com/image-photo/indian-food-dum-aloo-potato-600nw-1769801720.jpg" alt="">
+         <a href="category.html" class="cat">Dinner</a>
+         <div class="name">Aloodom</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>10<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://t4.ftcdn.net/jpg/06/47/74/55/360_F_647745501_sHSGA5Wm5Qvo3dFyPpoBhoGXRD7FyRTl.jpg" alt="">
+         <a href="category.html" class="cat">Dinner</a>
+         <div class="name">Matar Panner</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>15<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTPQa5mY2OKtnbxrGnImVxPnMkqvdLDlQwDHJa_nFmmlewDmKIxAoo8SVA91HRvHFZ4cU&usqp=CAU" alt="">
+         <a href="category.html" class="cat">Dinner</a>
+         <div class="name">Panner</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>25<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://i.ytimg.com/vi/_QVrPcneuIQ/maxresdefault.jpg" alt="">
+         <a href="category.html" class="cat">Dinner</a>
+         <div class="name">komolaBhog</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>10<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+      <form accept="" method="post" class="box">
+         <a href="quick_view.html" class="fas fa-eye"></a>
+         <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+         <img src="https://mayagroupjaipur.files.wordpress.com/2014/07/handi.png" alt="">
+         <a href="category.html" class="cat">Dinner</a>
+         <div class="name">Pantua</div>
+         <div class="flex">
+            <div class="price"><span>₹</span>10<span>/-</span></div>
+            <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+         </div>
+      </form>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="menu.html" class="btn">veiw all</a>
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>our email</h3>
+         <a href="mailto:techniqueedu@gmail.com">techniqueedu@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>opening hours</h3>
+         <p>00:07am to 00:09pm </p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>our address</h3>
+         <a href="https://www.google.com/maps">Panchrokhi, P.O.-Sugandhya,
+            Dist: Hooghly,Pin-712102, W.B</a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>our number</h3>
+         <a href="tel:9674982097">+967-498-2097</a>
+         <a href="tel:9830482096">+983-048-2096</a>
+         
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; copyright @ 2024 by <span>mr. jit sarkar</span> | all rights reserved!</div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="loader">
+   <img src="images/loader.gif" alt="">
+</div>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+
+var swiper = new Swiper(".home-slider", {
+   loop:true,
+   grabCursor:true,
+   effect: "flip",
+   pagination: {
+      el: ".swiper-pagination",
+      clickable:true,
+   },
+});
+
+</script>
+
+</body>
+</html>
